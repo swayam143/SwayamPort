@@ -1,5 +1,7 @@
-.education {
-  min-height: 100vh;
+@media screen and (min-width: 1390px) {
+  .education {
+    min-height: 100vh;
+  }
 }
 
 .education-body {

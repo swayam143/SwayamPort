@@ -1,5 +1,7 @@
-.experience {
-  min-height: 100vh;
+@media screen and (min-width: 1390px) {
+  .experience {
+    min-height: 100vh;
+  }
 }
 
 .experience-body {
