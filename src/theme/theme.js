@@ -1,0 +1,16 @@
+export const myPink = {
+  type: "dark",
+  primary: "#880e4f",
+  primary400: "#ad1457",
+  primary600: "#c2185b",
+  primary80: "#d81b60",
+  primary50: "#e91e63",
+  primary30: "#ff5722",
+  secondary: "#212428",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+};
