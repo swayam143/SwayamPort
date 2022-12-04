@@ -6,7 +6,7 @@
 
 @media screen and (max-width:550px){
   .job_description{
-    font-size: .9rem;
+    font-size: .9rem !important;
   }
 }
 
