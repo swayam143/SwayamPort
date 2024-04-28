@@ -8,6 +8,7 @@ import { MdTrendingFlat } from "react-icons/md";
 
 import "./Projects.css";
 import SingleProject from "./SingleProject/SingleProject";
+import { headerData } from "../../data/headerData";
 
 function Projects() {
   const { theme } = useContext(ThemeContext);
@@ -72,6 +73,7 @@ function Projects() {
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
+
           <div
             style={{ marginTop: "20px", height: "100%" }}
             className="projects--body"
@@ -109,6 +111,43 @@ function Projects() {
                   </button>
                 </a>
               </div>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                padding: "10px",
+                gap: "10px",
+                alignItems: "center",
+              }}
+            >
+              <h5 className="job_description">
+                To view my full list of projects, including those completed
+                within my organization.
+              </h5>
+              {/* <div className="lcr-buttonContainer"> */}
+              {headerData.resumePdf && (
+                <a
+                  href={headerData.resumePdf}
+                  download="resume"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button
+                    style={{ border: "2px solid red" }}
+                    className="glow-on-hover"
+                    type="button"
+                  >
+                    <div className={classes.drawerItem}>
+                      <span className={classes.drawerLinks}>
+                        {" "}
+                        Download&nbsp;Cv
+                      </span>
+                    </div>
+                  </button>
+                </a>
+              )}
+              {/* </div> */}
             </div>
           </div>
         </div>

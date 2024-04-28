@@ -1,5 +1,6 @@
 import resume from "../assets/pdf/resume.pdf";
 import Profile from "../assets/svg/profile.jpg";
+// import Profile2 from "../assets/svg/profile2.jpg";
 
 export const headerData = {
   name: " Shubham Oswal",

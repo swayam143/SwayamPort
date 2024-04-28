@@ -45,11 +45,11 @@
   z-index: 0;
   border-radius: 10px; */
   color: #880e4f !important;
-  width: 85% !important;
+  /* width: 85% !important; */
   border: 2px solid #880e4f !important;
   height: 40px !important;
   outline: none !important;
-  margin: 2rem auto !important;
+  margin: 2rem auto;
   display: flex !important;
   padding: 0 30px !important;
   background: none !important;

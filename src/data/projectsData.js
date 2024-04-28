@@ -1,23 +1,23 @@
 export const projectsData = [
   {
-    id: 1,
-    projectName: "Mern Ecommerce  ",
+    id: 2,
+    projectName: "Mern Social Media App",
     projectDesc:
-      "This project is a ecommerce Website using jwt token and MERN  Technology.",
-    tags: ["React", "Scss"],
-    code: "https://github.com/swayam143/food_ordering_website",
-    demo: "https://github.com/swayam143/food_ordering_website",
+      "With personalized profiles, a feature-rich news feed, and robust security features, it provides a dynamic space for sharing content, engaging with friends",
+    tags: ["Node", "Express", "mongodb"],
+    code: "https://github.com/swayam143/mern_social",
+    demo: "https://github.com/swayam143/mern_social",
     image:
-      "https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    id: 2,
-    projectName: "Registration Api",
+    id: 1,
+    projectName: "Mern Memories  ",
     projectDesc:
-      "An Api  system having all information of a Api creation using express, and mongodb ",
-    tags: ["Node", "Express", "mongodb"],
-    code: " https://github.com/swayam143/react_theme",
-    demo: "https://github.com/swayam143/react_theme",
+      "This project offers intuitive features for organizing, sharing, and reliving memories through photos and videos",
+    tags: ["React", "Scss"],
+    code: "https://github.com/swayam143/mern_memories",
+    demo: "https://github.com/swayam143/mern_memories",
     image:
       "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
